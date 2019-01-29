@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: IL_Maya_Blocks.ma
-//Last modified: Mon, Jan 28, 2019 05:41:01 PM
+//Last modified: Mon, Jan 28, 2019 05:41:35 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "270F5324-4D72-805F-ACFE-8D9D071E6E72";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -81.00370988614084 128.44316237312165 47.240510827134258 ;
-	setAttr ".r" -type "double3" -53.138352753996827 1380.1999999998627 0 ;
+	setAttr ".t" -type "double3" -17.921794954951256 2.1907290569562168 11.043566369257999 ;
+	setAttr ".r" -type "double3" 2.0616472460579267 1381.3999999999726 1.9076870699048014e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "57386049-4E74-E935-2C98-87ACD42C7EA6";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 156.83740435476378;
+	setAttr ".coi" 21.375000712195913;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
